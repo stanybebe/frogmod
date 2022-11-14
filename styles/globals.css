@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "milli";
+  src: url("/fonts/Millimetre-Regular_web.woff") format("woff"),
+    url("/fonts/Millimetre-Regular_web.woff2") format("woff2");
+}
+@font-face {
+  font-family: "milli-light";
+  src: url("/fonts/Millimetre-Light_web.woff") format("woff"),
+    url("/fonts/Millimetre-Light_web.woff2") format("woff2");
+}
+@font-face {
+  font-family: "milli-bold";
+  src: url("/fonts/Millimetre-Bold_web.woff") format("woff"),
+    url("/fonts/Millimetre-Bold_web.woff2") format("woff2");
+}
+@font-face {
+  font-family: "milli-black";
+  src: url("/fonts/Millimetre-Extrablack_web.woff") format("woff"),
+    url("/fonts/Millimetre-Extrablack_web.woff2") format("woff2");
+}
